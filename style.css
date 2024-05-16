@@ -176,3 +176,20 @@ body {
         opacity: 1;
     }
 }
+.boton2 {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin bordes */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin decoración de texto */
+    display: inline-block; /* Display inline-block */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa por encima */
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.boton2:hover {
+    background-color: #45a049; /* Cambia el color de fondo cuando se pasa el cursor por encima */
+}
